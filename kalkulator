@@ -13,3 +13,13 @@ print("1 -- Dodawanie")
 print("2 -- Odejmowanie")
 print("3 -- Mnozenie")
 print("4 -- Dzielenie")
+liczba = input("Wybierz operacje - 1|2|3|4:")
+ 
+liczba_1 = int(input("Podaj pierwsza liczbe: "))
+liczba_2 = int(input("Podaj druga liczbe: "))
+ 
+if liczba == '1':
+   print(liczba_1,"+",liczba_2,"=", dodaj(liczba_1,liczba_2))
+ 
+elif liczba == '2':
+   print(liczba_1,"-",liczba_2,"=", odejmij(liczba_1,liczba_2))
