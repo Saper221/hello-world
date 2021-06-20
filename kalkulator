@@ -1,0 +1,15 @@
+def dodaj(x, y):
+   return x + y
+def odejmij(x, y):
+   return x - y
+def pomnoz(x, y):
+   return x * y
+def podziel(x, y):
+   return x / y
+   print("Kalkulator v 1.0")
+print("Autorzy: Dziedzic, Matyjewicz, Tuzim")
+print("Podaj liczbe odpowiadajaca operacji, ktora chcesz wykonac:")
+print("1 -- Dodawanie")
+print("2 -- Odejmowanie")
+print("3 -- Mnozenie")
+print("4 -- Dzielenie")
