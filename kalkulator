@@ -34,3 +34,5 @@ elif liczba == '3':
 
 elif liczba == '4':
    print(liczba_1,"/",liczba_2,"=", podziel(liczba_1,liczba_2))
+else:
+   print("Podano zle dane!")
